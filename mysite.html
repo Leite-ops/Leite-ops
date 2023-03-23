@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LeiteArts</title>
+    <style type="text/css">
+        body {
+            background-color: #4BACC6;
+        }
+        
+        a {
+            border: 1px solid black;
+            padding: 5px;
+            background: red;
+            color: black;
+            font-weight: bold;
+            border-radius: 8px;
+            margin: 20px;
+        }
+        
+        a:hover {
+            font-weight: bold;
+            color: #000080;
+            background: yellowgreen;
+            border-bottom: 2px solid #4BACC6;
+        }
+        .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: greenss;
+    }
+
+    .header .name {
+      font-size: 25px;
+      font-family: 'Sriracha', cursive;
+      color: #000;
+      text-decoration: none;
+      margin-left: 30px;
+    }
+
+    .nav-items {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: #f5f5f5;
+      margin-right: 20px;
+    }
+
+    .nav-items a {
+      text-decoration: none;
+      color: #000;
+      padding: 35px 20px;
+    }
+
+        .intro {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 520px;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("images/9.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .intro h1 {
+      font-family: sans-serif;
+      font-size: 60px;
+      color: #fff;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin: 0;
+    }
+
+    .intro p {
+      font-size: 20px;
+      color: #d1d1d1;
+      text-transform: uppercase;
+      margin: 20px 0;
+    }
+
+    .intro button {
+      background-color: #5edaf0;
+      color: #000;
+      padding: 10px 25px;
+      border: none;
+      border-radius: 5px;
+      font-size: 20px;
+      font-weight: bold;
+      cursor: pointer;
+      box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.4)
+    }
+
+    .achievements {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 40px 80px;
+    }
+
+    .achievements .work {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0 40px;
+    }
+
+    .achievements .work i {
+      width: fit-content;
+      font-size: 50px;
+      color: #333333;
+      border-radius: 50%;
+      border: 2px solid #333333;
+      padding: 12px;
+    }
+
+    .achievements .work .work-heading {
+      font-size: 20px;
+      color: #333333;
+      text-transform: uppercase;
+      margin: 10px 0;
+    }
+
+    .achievements .work .work-text {
+      font-size: 15px;
+      color: #585858;
+      margin: 10px 0;
+    }
+
+    .about-me {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 80px;
+      border-top: 2px solid #eeeeee;
+    }
+
+    .about-me img {
+      width: 500px;
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .about-me-text h2 {
+      font-size: 30px;
+      color: #333333;
+      text-transform: uppercase;
+      margin: 0;
+    }
+
+    .about-me-text p {
+      font-size: 15px;
+      color: #585858;
+      margin: 10px 0;
+    }
+
+         .footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #302f49;
+      padding: 40px 80px;
+    }
+         .footer .copy {
+      color: #fff;
+    }
+
+    .bottom-links {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 40px 0;
+    }
+
+    .bottom-links .links {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0 40px;
+    }
+
+    .bottom-links .links span {
+      font-size: 20px;
+      color: #fff;
+      text-transform: uppercase;
+      margin: 10px 0;
+    }
+
+    .bottom-links .links a {
+      text-decoration: none;
+      color: #a1a1a1;
+      padding: 10px 20px;
+    }
+     .logo {
+       width: 100px;
+       border-radius: 100px;
+    </style>
+</head>
+
+<body>
+   <header class="header">
+    <img class="logo" src="images/11.jpg" >
+    <a href="#" class="name">Leite Arts</a>
+    <nav>
+        <a href="mysite.HTML">Home</a>
+        <a href="About.html">About</a>
+        <a href="Products.html">Products</a>
+        <a href="Contacts.html">Contact</a>
+        <a href="Accounts.html">Accounts</a>
+        <a href="Help.html">Help</a>
+    </nav>
+    </header>
+    <main>
+    <div class="intro">
+      <h1>An Artist</h1>
+      <p>I am an artist and I love exploring art.</p>
+      <form action="Home.html">
+        <button class = "Home" type="submit">
+            Click Here
+        </button>
+    </form>
+    </div>
+    <div class="achievements">
+      <div class="work">
+        <i class="fas fa-photo"></i>
+        <p class="work-heading">Projects</p>
+        <p class="work-text">I have worked on many projects and I am very proud of them. I am a very good artsist and I am always looking for new projects.</p>
+      </div>
+      <div class="work">
+        <i class="fas fa-video"></i>
+        <p class="work-heading">Skills</p>
+        <p class="work-text">I have a lot of skills and I am very good at them. I am very good at photography,videography and poetry and I am always looking forward to learn new skills.</p>
+      </div>
+      <div class="work">
+        <i class="fas fa-tree"></i>
+        <p class="work-heading">Editing</p>
+        <p class="work-text">I have a lot of editing skills and I am very good at them. I am very good at editing and I am always looking for new editing skills.</p>
+      </div>
+    </div>
+    <div class="about-me">
+      <div class="about-me-text">
+        <h2>About Me</h2>
+        <p>I am an artist and I love to explore art. I am a very good photographer,videographer and a poet.Always ready to learn so as to improve in whatever I do. Its alway a pleasure to work on new projects and challenging ones if I may say.</p>
+      </div>
+      <img src="images/6.jpg" alt="me">
+    </div>
+  </main>
+    <footer class="footer">
+    <div class="copy">&copy; Photographer</div>
+    <div class="bottom-links">
+      <div class="links">
+        <span>More Info</span>
+        <a href="Home.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="Contacts.html">Contact</a>
+        <a href="Help.html">Help</a>
+      </div>
+      <div class="links">
+        <span>Social Links</span>
+        <a href="#"><i class="fa-facebook"></i></a>
+        <a href="#"><i class="fa-twitter"></i></a>
+        <a href="#"><i class="fa-instagram"></i></a>
+        <a href="#"><i class="fa-tiktok"></i></a>
+        <a href="#"><i class="fa-youtube"></i></a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
